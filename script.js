@@ -25,7 +25,7 @@ var vid = document.getElementById('camera-stream');
 // to set the video source.
 //vid.src = window.URL.createObjectURL(localMediaStream);
  video.srcObject = localMediaStream;
-video.play();     
+video.play();      
 
     },
 
